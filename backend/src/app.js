@@ -9,7 +9,7 @@ const swagger = require("../config/swagger");
 try {
   //Configurating Server
   configureMiddlewares(app);
-  app.use("/api/docs", swagger.serve, swagger.setup);
+  app.use("/api/documentation", swagger.serve, swagger.setup);
   
   //Handling with global errors
   app.use((err, req, res, next) => {
