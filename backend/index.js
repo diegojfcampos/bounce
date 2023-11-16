@@ -4,7 +4,7 @@ const port = 3000;
 try {
   app.listen(port, () => {
     console.log(
-      `SERVER RUNNING CHECK ENDPOINTS ON http://localhost:${port}/api-docs`
+      `SERVER RUNNING => CHECK ENDPOINTS ON http://localhost:${port}/api/documentation`
     );
   });
 } catch (error) {

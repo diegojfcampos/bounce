@@ -6,6 +6,7 @@ const app = express();
 const configureMiddlewares = require("../config/serverConfig");
 const swagger = require("../config/swagger");
 
+
 try {
   //Configurating Server
   configureMiddlewares(app);
@@ -18,6 +19,7 @@ try {
   });
 
   //Routes
+
   const getCountry = require("./routes/countries");
   app.use("/api/country", getCountry);
 
