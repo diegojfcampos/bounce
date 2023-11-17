@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
 import Footer from '@components/Footer';
+import Provider from '@components/Provider';
 
 export const metadata = {
     title: 'Bounce Insights',
@@ -9,17 +10,19 @@ export const metadata = {
 const RootLayout = ({children}) => {
   return (
     <html lang='en'>
-        <body>
-            <div className="main">
-                <div className="gradiante"/>
-            </div>
-            <main className='app'>
-                <Nav/>
-                {children}
-                <Footer/>
+        <Provider>
+            <body>
+                <div className="main">
+                    <div className="gradiante"/>
+                </div>
+                <main className='app'>
+                    <Nav/>
+                    {children}
+                    <Footer/>
 
-            </main>
-        </body>
+                </main>
+            </body>
+        </Provider>
     </html>
   )
 }

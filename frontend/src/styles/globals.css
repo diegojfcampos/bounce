@@ -72,12 +72,12 @@
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
-.black_btn {
-  @apply rounded-full  bg-primary-pink py-1.5 px-5 text-white transition-all hover:bg-secundary-pink text-center text-sm font-poppins flex items-center justify-center;
+.pink_btn {
+  @apply rounded-full text-base bg-primary-pink py-1.5 px-5 text-white transition-all hover:bg-secundary-pink text-center  font-poppins flex items-center justify-center;
 }
 
 .outline_btn {
-  @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-poppins  flex items-center justify-center;
+  @apply  px-5 text-primary-pink transition-all hover:text-secundary-pink text-center text-base font-poppins  flex items-center justify-center;
 }
 
 .head_text {
@@ -136,7 +136,7 @@
 }
 
 .dropdown {
-  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
+  @apply absolute border border-primary-pink right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
 }
 
 .dropdown_link {
