@@ -1,4 +1,4 @@
-
+import Search from '@components/Search'
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col ">
@@ -9,6 +9,7 @@ const Home = () => {
         <p className="desc text-center">
             Know Your World: Essential Country Insights at Your Fingertips!
         </p>
+        <Search/>
     </section>
   )
 }
