@@ -10,7 +10,7 @@ const Nav = () => {
     const [toggleDropdown, setToggleDropdown] = useState(false);  
 
     return (
-       <nav className='flex-between w-full mb-16 pt-3 boder-b border-primary-pink'>
+       <nav className='flex-between w-full mb-14 pt-3 boder-b border-primary-pink'>
         <Link href='/' className='flex gap-2 flex-center'>
             <Image
                 src="/assets/logo.svg"

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className='bg-primary-pink font-semibold w-full fixed bottom-0 '>
+    <footer className="bg-primary-pink font-semibold w-full p relative z-10 mt-20">
       <div className='hidden sm:flex items-center justify-between'>
         <p className='text-3xl flex justify-between text-white ml-5'>
           &#169; Diego J F Campos
@@ -30,3 +30,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
