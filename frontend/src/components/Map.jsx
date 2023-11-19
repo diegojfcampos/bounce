@@ -1,6 +1,8 @@
 // src/components/Map.jsx
 import React, { useEffect, useState } from 'react';
 import GoogleMapReact from 'google-map-react';
+const dotenv = require('dotenv');
+dotenv.config();
 
 const Map = ({ latitude, longitude }) => {
   const center = { lat: latitude, lng: longitude };
@@ -19,7 +21,7 @@ const Map = ({ latitude, longitude }) => {
   return (
     <div style={{ height: '400px', width: '300px' }} className="rounded-md overflow-hidden shadow-md">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.GOOGLE_API }} 
+        bootstrapURLKeys={{ key: 'AIzaSyB72BqJ_z5s5ok8D5-4PwbMyYYo1Ig4sl8' }} 
         defaultCenter={center}
         defaultZoom={5}
         yesIWantToUseGoogleMapApiInternals
