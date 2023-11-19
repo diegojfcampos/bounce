@@ -8,8 +8,8 @@ describe("Testing route to get country by name", () => {
 
     expect(response.statusCode).toEqual(200);
     expect(response.headers["content-type"]).toEqual(expect.stringContaining("application/json"));
-    expect(response.body).toBeInstanceOf(Array);
-    expect(response.body.length).toBeGreaterThan(0);
-    expect(response.body[0]).toHaveProperty("name");
+    expect(response.body).toBeInstanceOf(Object);
+    expect(Object.keys(response.body).length).toBeGreaterThan(0);
+    expect(response.body).toHaveProperty("name");
   });
 });

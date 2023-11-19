@@ -24,7 +24,7 @@ try {
   app.use("/api/country", getCountry);
 
   app.get("/", (req, res) => {
-    res.send("API RUNNING - CHECK ENDPOINTS ON /api/docs");
+    res.send("API RUNNING - CHECK ENDPOINTS ON /api/documentation");
   });
 
 } catch (error) {
