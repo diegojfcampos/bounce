@@ -17,8 +17,8 @@ const Card = ({ countryData }) => {
             <p><strong>Continent: </strong>{countryData.continents}</p>
             <p><strong>Region Name: </strong>{countryData.region}</p>
             <p><strong>Capital: </strong>{countryData.capital}</p>
-            <p><strong>Area: </strong>{countryData.area.toLocaleString()}</p>
-            <p><strong>Population: </strong>{countryData.population.toLocaleString()}</p>
+            <p><strong>Area: </strong>{countryData.area.toLocaleString()} km2</p>
+            <p><strong>Population: </strong>{countryData.population.toLocaleString()} </p>
         </div>
     </section>
   );

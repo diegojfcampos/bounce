@@ -1,34 +1,33 @@
-//importing express and instancing Express
+// Importando express e instanciando o Express
 const express = require("express");
 const app = express();
 
-//Importing dependencies to configurate server
+// Importando dependências para configurar o servidor
 const configureMiddlewares = require("../config/serverConfig");
-const swagger = require("../config/swagger");
-
 
 try {
-  //Configurating Server
+
   configureMiddlewares(app);
-  app.use("/api/documentation", swagger.serve, swagger.setup);
   
-  //Handling with global errors
+  // Lidando com erros globais
   app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send("Something went wrong!");
   });
 
-  //Routes
-
+  // Rotas
   const getCountry = require("./routes/countries");
   app.use("/api/country", getCountry);
 
+
   app.get("/", (req, res) => {
-    res.send("API RUNNING - CHECK ENDPOINTS ON /api/documentation");
+    res.send("API RUNNING");
   });
 
 } catch (error) {
   console.error("Error during server initialization:", error);
   process.exit(1);
 }
+
+
 module.exports = app;
