@@ -1,12 +1,13 @@
-FROM node:21
+FROM node:14-alpine
 
-WORKDIR /app
+WORKDIR /app/backend
 
-COPY package.json .
-COPY src /app/backend/
+# Copia todos os arquivos do diretório do projeto para o contêiner
+COPY . .
 
+# Instala as dependências
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 3002
 
 CMD ["npm", "start"]

@@ -16,7 +16,7 @@ const Search = () => {
     try {
       const trimmedSearchText = searchText.trim();
       const response = await fetch(
-        `http://localhost:3002/api/country/get/${trimmedSearchText}`
+        `http://54.246.46.142:3002/api/country/get/${trimmedSearchText}`
       );
 
       if (!response.ok) {

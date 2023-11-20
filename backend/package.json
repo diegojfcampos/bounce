@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch --no-warnings index.js ",
+    "start": "node index.js",
+    "start:dev": "node --watch --no-warnings index.js",
     "test": "jest"
   },
   "keywords": [],
