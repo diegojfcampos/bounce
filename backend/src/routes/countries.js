@@ -1,5 +1,4 @@
 const router = require("express").Router();
-
 const axios = require("axios");
 
 router.get("/get/:name", async (req, res) => {
@@ -11,7 +10,7 @@ router.get("/get/:name", async (req, res) => {
     );
 
     console.log("API Response:", response.data);
-
+      
     const filteredData = {
       name: response.data[0].name.common,
       official: response.data[0].name.official,

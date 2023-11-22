@@ -1,21 +1,22 @@
-// Importando express e instanciando o Express
+// Importing and instancing express
 const express = require("express");
 const app = express();
 
-// Importando dependências para configurar o servidor
+// Importing server configs
 const configureMiddlewares = require("../config/serverConfig");
 
+//Handle exceptions
 try {
 
   configureMiddlewares(app);
   
-  // Lidando com erros globais
+  //Handling with global errors
   app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send("Something went wrong!");
   });
 
-  // Rotas
+  // Routes
   const getCountry = require("./routes/countries");
   app.use("/api/country", getCountry);
 

@@ -69,7 +69,8 @@ const Search = () => {
           data-test="country-input"
         />
       </form>
-      {isMobile? (
+      {/*Mobile Navigation*/}
+      {isMobile && searchedResult? (
           <div data-test="backend-results" className="flex gap-3 bg-gray-100 rounded-md flex-wrap align-middle justify-center ">
           <div>
             <CountryCard countryData={searchedResult} />
@@ -81,7 +82,9 @@ const Search = () => {
             />
           </div>
         </div>
+        
       ) :(
+        // Desktop Navigation
         status === true && searchedResult ? (
           <div className="flex gap-3 bg-gray-100 rounded-md ">
             <div>

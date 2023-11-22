@@ -101,15 +101,11 @@
   @apply mt-8 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2;
 }
 
-
 .form_input {
   @apply w-full flex rounded-lg mt-2 p-3 text-sm text-gray-500 outline-0;
 }
 
 /* Nav Component */
-.logo_text {
-  @apply max-sm:hidden font-poppins font-semibold text-lg text-black tracking-wide;
-}
 
 .dropdown {
   @apply absolute border border-primary-pink right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;

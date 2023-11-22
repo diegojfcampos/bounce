@@ -1,8 +1,5 @@
-// src/components/Map.jsx
 import React, { useEffect, useState } from 'react';
 import GoogleMapReact from 'google-map-react';
-const dotenv = require('dotenv');
-dotenv.config();
 
 const Map = ({ latitude, longitude }) => {
   const center = { lat: latitude, lng: longitude };

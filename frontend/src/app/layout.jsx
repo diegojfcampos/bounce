@@ -3,7 +3,7 @@ import Nav from '@components/Nav';
 import Head from 'next/head';
 
 
-
+//Global layout
 export const metadata = {
     title: 'Bounce Insights',
     description: 'Software Engineer Intern coding challenge!'
