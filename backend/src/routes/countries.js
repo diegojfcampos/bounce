@@ -44,10 +44,8 @@ router.get("/get/:name", async (req, res) => {
         longitude: response.data[0].latlng[1],
       };
     }     
-    
-        //console.log("Filtered Data:", filteredData);
   
-        return res.status(200).json(filteredData);
+      return res.status(200).json(filteredData);
     
   } catch (error) {
     console.error("Error:", error);
