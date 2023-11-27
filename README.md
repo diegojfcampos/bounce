@@ -56,7 +56,7 @@ Developed with Next.js for superior performance through server-side rendering an
   - Dockers: Containerizing applications for consistency across environments.
   - Docker Swarm: Orchestrating and managing Docker containers for scalability.
     
-#### Observability (Metrics and DashBoard
+#### Observability (Metrics and DashBoard)
    - Prometheus: Collecting and storing metrics data. 	
    - Grafana: Visualizing and analyzing metrics through interactive dashboards.
 
