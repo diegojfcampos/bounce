@@ -96,7 +96,7 @@ Clone the project
 Go to the root project directory
 
 ```bash
-  cd backend
+  cd bounce
 ```
 Run the docker compose
 
