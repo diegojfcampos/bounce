@@ -1,26 +1,24 @@
-// Importing and instancing express
-const express = require("express");
-const app = express();
-
 // Importing server configs
-const configureMiddlewares = require("../config/serverConfig");
+const express = require("express");
+const { prometheus } = require("../config/metrics");
+const app = express();
+const { configureMiddlewares, configureMetricsEndpoint, configureErrorHandling } = require("../config/serverConfig");
 
-//Handle exceptions
+// Configuring Prometheus to collect metrics
+prometheus.collectDefaultMetrics();
+
+// Handling Exceptions
 try {
-
+  // Implementing configs
   configureMiddlewares(app);
-  
-  //Handling with global errors
-  app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).send("Something went wrong!");
-  });
+  configureMetricsEndpoint(app); 
+  configureErrorHandling(app);
 
-  // Routes
+  // Instancing Routes
   const getCountry = require("./routes/countries");
   app.use("/api/country", getCountry);
 
-
+  // Endpoint for checking if the API is running
   app.get("/", (req, res) => {
     res.send("API RUNNING");
   });
@@ -29,6 +27,5 @@ try {
   console.error("Error during server initialization:", error);
   process.exit(1);
 }
-
 
 module.exports = app;

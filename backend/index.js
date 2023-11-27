@@ -4,7 +4,7 @@ const port = 3002;
 try {
   app.listen(port, () => {
     console.log(
-      `SERVER RUNNING`
+      `SERVER RUNNING => http://50.17.134.49:3002/api/country/get/ireland`
     );
   });
 } catch (error) {

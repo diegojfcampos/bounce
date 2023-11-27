@@ -9,10 +9,10 @@ const Card = ({ countryData }) => {
             alt="flag"
             width={350}
             height={350}
-            className="rounded-md mt-3 mb-4 mr-4 ml-1 shadow-md"
+            className="rounded-md mt-3 mb-3 mr-3 ml-3 shadow-md"
             />    
         </div>
-        <div className="text-lg gap-1 shadow-md bg-gray-200 rounded-md ml-3">        
+        <div className="text-lg gap-1 shadow-md bg-gray-200 rounded-md mr-3 ml-3">        
             <p><strong>Name: </strong>{countryData.name}</p>
             <p><strong>Continent: </strong>{countryData.continents}</p>
             <p><strong>Region Name: </strong>{countryData.region}</p>

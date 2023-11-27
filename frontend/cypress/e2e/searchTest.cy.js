@@ -3,7 +3,7 @@
 describe('Search component tests', () => {
   beforeEach(() => {
     
-    cy.visit('http://34.246.121.159:3000/');
+    cy.visit('http://23.22.247.39:3000/');
   });
 
   it('should allow searching for a country', () => {

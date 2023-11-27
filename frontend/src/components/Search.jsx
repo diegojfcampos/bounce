@@ -16,7 +16,7 @@ const Search = () => {
     try {
       const trimmedSearchText = searchText.trim();
       const response = await fetch(
-        `http://54.246.46.142:3002/api/country/get/${trimmedSearchText}`
+        `http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/api/country/get/${trimmedSearchText}`
       );
 
       if (!response.ok) {
@@ -75,7 +75,7 @@ const Search = () => {
           <div>
             <CountryCard countryData={searchedResult} />
           </div>
-          <div className="mt-3 mb-4 mr-4 ">
+          <div className="mt-3 mb-4 mr-3 ml-3 ">
             <CountryMap
               latitude={mapData.latitude}
               longitude={mapData.longitude}
@@ -90,7 +90,7 @@ const Search = () => {
             <div>
               <CountryCard countryData={searchedResult} />
             </div>
-            <div className="mt-3 mb-4 mr-4 ">
+            <div className="mt-3 mb-4 mr-3 ml-3 ">
               <CountryMap
                 latitude={mapData.latitude}
                 longitude={mapData.longitude}
