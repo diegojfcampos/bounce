@@ -88,7 +88,17 @@ Amazon Web Services EC2 Instances
 
 ### Methode 1 (Docker Compose)
 
-Go to the backend project directory
+Clone the project
+
+```bash
+  git clone https://github.com/diegojfcampos/bounce.git
+```
+Go to the root project directory
+
+```bash
+  cd backend
+```
+Run the docker compose
 
 ```bash
   $ docker-compose up -d
