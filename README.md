@@ -50,7 +50,7 @@ Developed with Next.js for superior performance through server-side rendering an
 
 #### Cloud
   - Amazon Web Services: Utilizing EC2 instances for scalability.
-  - DockerHub to Images: Hosting containerized images for efficient deployment.
+  - DockerHub: Hosting containerized images for efficient deployment.
 
 #### Containerization and Orchestration
   - Dockers: Containerizing applications for consistency across environments.
