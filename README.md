@@ -84,4 +84,86 @@ Amazon Web Services EC2 Instances
 ### Orchestration:
   - Docker Swarm: [Swarm Dashboard](http://ec2-54-165-129-177.compute-1.amazonaws.com:9000/)
 
-    
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/diegojfcampos/bounce.git
+```
+### Methode 1 (Through Docker Compose)
+
+Go to the backend project directory
+
+```bash
+  $ docker-compose up -d
+```
+
+### Methode 2
+
+#### Run server
+Go to the backend project directory
+
+```bash
+  cd backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start dev
+```
+To run test
+
+```bash
+  npm test
+```
+#### Run Web
+Go to the frontend project directory
+
+```bash
+  cd frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the Application 
+
+```bash
+  npm run dev
+```
+To run test
+
+```bash
+  npx cypress run
+```
+## Run Locally Alternative without clone the project
+
+Pull images from Docker Hub
+
+```bash
+  docker pull diegojfcampos/bounce:api diegojfcampos/bounce:web
+```
+Run images in detached mode
+
+```bash
+  docker run -d -p 3002:3002 diegojfcampos/bounce:api 
+```
+```bash
+  docker run -d -p 3000:3000 diegojfcampos/bounce:web
+```
+You can have more images of this project on the DockerHub, [click here](https://hub.docker.com/repository/docker/diegojfcampos/bounce/tags?page=1&ordering=last_updated).
+
+## Authors
+
+- [@diegojfcampos](https://www.github.com/diegojfcampos)
