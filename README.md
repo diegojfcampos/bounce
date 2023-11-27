@@ -3,30 +3,15 @@ Know Your World: Essential Country Insights at Your Fingertips!
 
 ![Screenshot from 2023-11-27 14-11-23](https://github.com/diegojfcampos/bounce/assets/52011695/a707e6dd-8d7c-4237-9222-67f8acf8dc7f)
 
-# Deployment and Endpoints
+# Description
 
+Bounce Insights is an innovative platform offering indispensable country insights right at your fingertips. Drawing inspiration from the sleek and intuitive design of official homepages, our project is meticulously crafted to seamlessly adapt to various devices, providing an unparalleled user experience, even on mobile phones.
 
-Amazon Web Services EC2 Instances 
+Developed with Next.js for superior performance through server-side rendering and SEO optimization, we leverage the latest cloud computing technologies to ensure scalability, maintainability, reliability, and robustness.
 
-### Frontend:
-  - Web: http://ec2-23-22-247-39.compute-1.amazonaws.com:3000
-  
-### Backend:
-  - API:       http://ec2-50-17-134-49.compute-1.amazonaws.com:3002
-  - Queries:   http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/api/country/get/ireland
-  - Metrics:   http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/metrics
+ APP => http://ec2-23-22-247-39.compute-1.amazonaws.com:3000
 
-### DashBoard:
-  - Grafana: http://3.80.63.121:3001/d/b581cb3e-bcae-481b-bb04-dccfd7f72dc4/bounce?orgId=1&from=1700973717171&to=1700974017171
-    
-### Observability:
-  - Prometheus:  https://ec2-34-228-143-25.compute-1.amazonaws.com:9090/graph
-    
-### Orchestration:
-  - Docker Swarm:  http://ec2-54-165-129-177.compute-1.amazonaws.com:9000/
-
-
-### Technologies
+# Technologies
 <div style="display: inline_block"><br> 
 	
   <img align="center" alt="Diego-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">  
@@ -47,34 +32,56 @@ Amazon Web Services EC2 Instances
 
 
 #### Frontend
-  - React JS
-  - Next Js
-  - Tailwindcss
-  - React Responsive to Mobile Screens
-  - Google Maps API
-  - Rest Country API
-  - Cypress to Testing
+  - React JS: Building interactive user interfaces.
+  - Next Js:  React framework for server-side rendering static site generation and SEO optimization.
+  - Tailwindcss: A utility-first CSS framework for rapid UI development
+  - React Responsive: Ensuring a smooth transition to mobile screens
+  - Google Maps API: Integrating dynamic maps for enhanced visualization.
+  - Rest Country API: Fetching up-to-date country information.
+  - Cypress: Testing frameworks for robust server testing.
 
 #### Backend
-  - Node Js
-  - Express Js
-  - Axios
-  - Cors
-  - Jest to Testing
+  - Node Js: Powering the backend server.
+  - Express Js: A fast, unopinionated, minimalist web framework for Node.js.
+  - Axios: Handling HTTP requests.
+  - Cors: Enabling Cross-Origin Resource Sharing.
+  - Jest: Testing frameworks for robust server testing.
   - SuperTest to Testing Server Simulations
 
 #### Cloud
-  - Amazon Web Services
-  - DockerHub to Images
+  - Amazon Web Services: Utilizing EC2 instances for scalability.
+  - DockerHub to Images: Hosting containerized images for efficient deployment.
 
 #### Containerization and Orchestration
-  - Dockers 
-  - Docker Swarm
+  - Dockers: Containerizing applications for consistency across environments.
+  - Docker Swarm: Orchestrating and managing Docker containers for scalability.
     
 #### Observability (Metrics and DashBoard
-   - Prometheus
-   - Grafana
+   - Prometheus: Collecting and storing metrics data. 	
+   - Grafana: Visualizing and analyzing metrics through interactive dashboards.
 
 #### CI/CD automation
-   - Jenkins
+   - Jenkins: Automating continuous integration and deployment pipelines.
+
+# Deployment and Endpoints
+
+Amazon Web Services EC2 Instances 
+
+### Frontend:
+  - Web: [Explore Bounce](http://ec2-23-22-247-39.compute-1.amazonaws.com:3000)
+  
+### Backend:
+  - API: [Bounce API](http://ec2-50-17-134-49.compute-1.amazonaws.com:3002)
+  - Queries: [Country Data](http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/api/country/get/ireland)
+  - Metrics: [Server Metrics](http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/metrics)
+
+### DashBoard:
+  - Grafana: [Bounce Dashboard](http://3.80.63.121:3001/d/b581cb3e-bcae-481b-bb04-dccfd7f72dc4/bounce?orgId=1&from=1700973717171&to=1700974017171)
+    
+### Observability:
+  - Prometheus: [Metrics Monitoring](https://ec2-34-228-143-25.compute-1.amazonaws.com:9090/graph)
+    
+### Orchestration:
+  - Docker Swarm: [Swarm Dashboard](http://ec2-54-165-129-177.compute-1.amazonaws.com:9000/)
+
     
