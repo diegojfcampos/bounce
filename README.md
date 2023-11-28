@@ -76,7 +76,7 @@ Amazon Web Services EC2 Instances
   - Metrics: [Server Metrics](http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/metrics)
 
 ### DashBoard:
-  - Grafana: [Bounce Dashboard](http://3.80.63.121:3001/d/b581cb3e-bcae-481b-bb04-dccfd7f72dc4/bounce?orgId=1)
+  - Grafana: [Bounce Dashboard](http://3.80.63.121:3001/d/b581cb3e-bcae-481b-bb04-dccfd7f72dc5/bounce-insight?orgId=1&from=1701128769608&to=1701150369608)
     
 ### Observability:
   - Prometheus: [Metrics Monitoring](https://ec2-34-228-143-25.compute-1.amazonaws.com:9090/graph)
