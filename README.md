@@ -1,8 +1,6 @@
 # Bounce Insights Software Engineer coding challenge
 Know Your World: Essential Country Insights at Your Fingertips!
 
-![Screenshot from 2023-11-27 14-11-23](https://github.com/diegojfcampos/bounce/assets/52011695/a707e6dd-8d7c-4237-9222-67f8acf8dc7f)
-
 # Description
 
 Bounce Insights is an innovative platform offering indispensable country insights right at your fingertips. Drawing inspiration from the sleek and intuitive design of official homepages, our project is meticulously crafted to seamlessly adapt to various devices, providing an unparalleled user experience, even on mobile phones.
