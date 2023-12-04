@@ -1,13 +1,15 @@
 # Bounce Insights Software Engineer coding challenge
 Know Your World: Essential Country Insights at Your Fingertips!
 
+![Screenshot from 2023-12-04 15-06-44](https://github.com/diegojfcampos/country_Insights/assets/52011695/a45d26c4-7654-48ad-aca0-d778700c3df2)
+
 # Description
 
 Bounce Insights is an innovative platform offering indispensable country insights right at your fingertips. Drawing inspiration from the sleek and intuitive design of official homepages, our project is meticulously crafted to seamlessly adapt to various devices, providing an unparalleled user experience, even on mobile phones.
 
 Developed with Next.js for superior performance through server-side rendering and SEO optimization, we leverage the latest cloud computing technologies to ensure scalability, maintainability, reliability, and robustness.
 
- APP => http://ec2-23-22-247-39.compute-1.amazonaws.com:3000
+ APP => http://ec2-50-17-134-49.compute-1.amazonaws.com:3000
 
 # Technologies
 <div style="display: inline_block"><br> 
@@ -66,7 +68,7 @@ Developed with Next.js for superior performance through server-side rendering an
 Amazon Web Services EC2 Instances 
 
 ### Frontend:
-  - Web: [Explore Bounce](http://ec2-23-22-247-39.compute-1.amazonaws.com:3000)
+  - Web: [Explore Bounce](http://ec2-50-17-134-49.compute-1.amazonaws.com:3000)
   
 ### Backend:
   - API: [Bounce API](http://ec2-50-17-134-49.compute-1.amazonaws.com:3002)
@@ -74,10 +76,10 @@ Amazon Web Services EC2 Instances
   - Metrics: [Server Metrics](http://ec2-50-17-134-49.compute-1.amazonaws.com:3002/metrics)
 
 ### DashBoard:
-  - Grafana: [Bounce Dashboard](http://3.80.63.121:3001/d/b581cb3e-bcae-481b-bb04-dccfd7f72dc5/bounce-insight?orgId=1&from=1701128769608&to=1701150369608)
+  - Grafana: [Bounce Dashboard](http://ec2-50-17-134-49.compute-1.amazonaws.com:3001/d/b581cb3e-bcae-481b-bb04-dccfd7f72dc4/bounce?orgId=1&from=1701680377115&to=1701701977115)
     
 ### Observability:
-  - Prometheus: [Metrics Monitoring](https://ec2-34-228-143-25.compute-1.amazonaws.com:9090/graph)
+  - Prometheus: [Metrics Monitoring](http://ec2-50-17-134-49.compute-1.amazonaws.com:9090/graph)
     
 ### Orchestration:
   - Docker Swarm: [Swarm Dashboard](http://ec2-54-165-129-177.compute-1.amazonaws.com:9000/)
