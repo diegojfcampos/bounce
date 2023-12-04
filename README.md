@@ -1,4 +1,4 @@
-# Bounce Insights Software Engineer coding challenge
+# Country Insights
 Know Your World: Essential Country Insights at Your Fingertips!
 
 ![Screenshot from 2023-12-04 15-06-44](https://github.com/diegojfcampos/country_Insights/assets/52011695/a45d26c4-7654-48ad-aca0-d778700c3df2)
