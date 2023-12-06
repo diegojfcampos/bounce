@@ -5,8 +5,8 @@ import Head from 'next/head';
 
 //Global layout
 export const metadata = {
-    title: 'Bounce Insights',
-    description: 'Software Engineer Intern coding challenge!'
+    title: 'Contry Insights',
+    description: 'Know Your World: Essential Country Insights at Your Fingertips!!'
 }
 const RootLayout = ({ children }) => {
   return (

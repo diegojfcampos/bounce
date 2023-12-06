@@ -5,12 +5,12 @@ const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
       <h1 className="head_text  text-center">
-        Coding Challenge
+        Know Your World
         <br className="max-md:hidden" />
-        <span className="pink_gradient text-center">Bounce Insight</span>
+        <span className="pink_gradient text-center">Country Insights</span>
       </h1>
       <p className="desc text-center">
-        Know Your World: Essential Country Insights at Your Fingertips!
+         Essential Country Insights at Your Fingertips!
       </p>
       <Search />
     </section>

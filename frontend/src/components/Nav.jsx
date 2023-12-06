@@ -13,9 +13,9 @@ const Nav = () => {
        <nav className='flex-between w-full mb-14 pt-3 boder-b border-primary-pink'>
         <Link href='/' className='flex gap-2 flex-center'>
             <Image
-                src="https://bounceinsights.com/wp-content/uploads/2020/06/method-draw-image-1.svg"
+                src="/assets/logo.png"
                 alt="logo"
-                width={150}
+                width={200}
                 height={150}
                 className='object-contain'
             />            

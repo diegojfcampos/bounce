@@ -17,7 +17,7 @@ const Map = ({ latitude, longitude }) => {
   };
 
   return (
-    <div style={{ height: '400px', width: '300px' }} className="rounded-md overflow-hidden shadow-md">
+    <div style={{ height: '450px', width: '300px' }} className="rounded-md overflow-hidden shadow-md">
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyB72BqJ_z5s5ok8D5-4PwbMyYYo1Ig4sl8' }} 
         defaultCenter={center}

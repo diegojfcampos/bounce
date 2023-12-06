@@ -19,6 +19,7 @@ WORKDIR /app/frontend
 
 COPY --from=builder /app/frontend/package*.json ./
 COPY --from=builder /app/frontend/.next ./.next
+COPY --from=builder /app/frontend/public ./public 
 
 RUN npm ci --only=production
 
