@@ -1,7 +1,7 @@
 # Country Insights
 Know Your World: Essential Country Insights at Your Fingertips!
 
-![Screenshot from 2023-12-04 15-06-44](https://github.com/diegojfcampos/country_Insights/assets/52011695/a45d26c4-7654-48ad-aca0-d778700c3df2)
+![Screenshot from 2023-12-08 13-04-37](https://github.com/diegojfcampos/country_Insights/assets/52011695/b46a50cb-4cf5-438b-a88f-bc31027c3656)
 
 # Description
 
